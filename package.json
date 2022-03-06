@@ -1,0 +1,19 @@
+{
+  "name": "cat-picture-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ./ -c-1 --cors --port 3000",
+    "watch": "nodemon -w src --exec npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "nodemon": "^2.0.15"
+  }
+}

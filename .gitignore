@@ -1,0 +1,7 @@
+node_modules/
+.env
+test.js
+*.log
+.vscode
+coverage
+__test__
